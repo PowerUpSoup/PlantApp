@@ -1,0 +1,69 @@
+header {
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+header h1 {
+    padding: 20px;
+    margin: 0px;
+}
+
+header p {
+    padding: 20px;
+    margin: 0px;
+}
+
+#search-options {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alpha-links {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plant-type-list-button {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.user-input-div {
+    margin: 20px;
+    text-align: center;
+    display: inline;
+}
+
+#search-by-input {
+    border: 1px solid black;
+}
+
+#search-by-input-submit {
+    border: 1px solid black;
+}
+
+.search-results {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.search-results ul {
+    padding: 0px;
+}
+
+.search-results li {
+    list-style: none;
+}
